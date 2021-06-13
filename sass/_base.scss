@@ -8,6 +8,13 @@ $color-light-pink: rgba(235,203,247,1);
 $color-signup-pink: rgba(246,230,248,255);
 $color-footer: #fdfcf9;
 
+// MEDIA QUERIES BREAKPOINTS
+$bp-max: 62em;
+$bp-largest: 53em;
+$bp-large: 48em; // 768px
+$bp-medium: 46em; // 704px
+$bp-small: 25em;
+
 *,
 *::before,
 *::after {
@@ -20,6 +27,10 @@ html {
     box-sizing: border-box;
     font-size: 62.5%; // Makes 1rem = 10px -- 10px/16px = 62.5%
     font-family: 'DM Sans', sans-serif;
+
+    @media only screen and (max-width: $bp-largest) {
+        font-size: 50%;
+    }
 }
 
 .container {

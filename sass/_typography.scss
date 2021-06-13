@@ -22,7 +22,8 @@
 }
 
 // BUTTON STYLES
-.btn {
+.btn,
+.btn-nav {
     display: inline-block;
     font-size: 1.8rem;
     padding: 1.5rem 2.5rem;
@@ -36,6 +37,14 @@
     text-align: center;
 
     &:hover {
+        background-color: transparent;
+        color: $color-black;
+    }
+}
+
+.btn-nav {
+    
+    @media only screen and (max-width: $bp-medium) {
         background-color: transparent;
         color: $color-black;
     }

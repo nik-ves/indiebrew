@@ -1,0 +1,163 @@
+// HEADER STYLES
+.header {
+    background: linear-gradient(135deg, $color-pink 0%, $color-light-pink 5%, $color-white 29%);
+    padding-top: 5rem;
+
+    &__box {
+        display: flex;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 3rem;
+    }
+
+    &__nav {
+        display: flex;
+        list-style: none;
+        font-size: 2rem;
+        align-items: center;
+        color: $color-black;
+
+        &--link {
+            text-decoration: none;
+            padding: 0 2rem;
+            color: $color-black;
+            transition: 0.2s;
+
+            &:hover {
+                color: $color-blue;
+            }
+        }
+    }
+}
+
+.intro {
+
+    &__content {
+        display: flex;
+        align-items: center;
+        padding: 10rem 3rem;
+    }
+
+    &__description {
+        max-width: 66rem;
+        min-width: 50%;
+    }
+
+    &__text {
+        font-size: 2rem;
+        color: $color-gray;
+        margin: 2rem 0 3rem 0;
+    }
+
+    &__avatars {
+        display: block;
+        margin: 3rem 0 2rem 0;
+    }
+
+    &__box {
+        max-width: 53rem;
+        
+        &--image {
+            max-width: 100%;
+        }
+    }
+}
+
+// ACCESS STYLES
+.access {
+
+    &__content {
+        padding: 0 3rem;
+        margin: 10rem 0;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10rem;
+    }
+
+    &__image-box {
+        max-width: 50rem;
+    }
+
+    &__image {
+
+        &--1 {
+            max-width: 40rem;
+            margin-left: 3rem;
+        }
+
+        &--2 {
+            max-height: 50rem;
+        }
+    }
+
+    &__text-box {
+        max-width: 68rem;
+    }
+    
+    &__text {
+        font-size: 2rem;
+        color: $color-gray;
+        margin: 1.5rem 0;
+    }
+
+    &__link {
+        font-size: 2rem;
+        text-decoration: none;
+        color: $color-blue;
+        font-weight: 500;
+        border-bottom: 2px solid transparent;
+        transition: 0.2s;
+
+        &:hover {
+            border-bottom: 2px solid $color-blue;
+        }
+    }
+}
+
+// FOOTER 
+.footer {
+    background-color: $color-footer;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        padding: 5rem 3rem;
+    }
+
+    &__text-box {
+        max-width: 40rem;
+    }
+
+    &__text {
+        font-size: 2rem;
+        color: $color-gray;
+        margin: 1rem 0 4rem 0;
+    }
+
+    &__list {
+        list-style-type: none;
+        font-size: 2rem;
+        
+        &--item {
+            color: $color-black;
+            margin-bottom: 1rem;
+        }
+
+        &--link {
+            text-decoration: none;
+            color: $color-gray;
+            transition: 0.2s;
+
+            &:hover {
+                border-bottom: 1px solid $color-gray;
+            }
+        }   
+    }
+}

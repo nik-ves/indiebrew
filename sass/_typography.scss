@@ -32,6 +32,20 @@
     }
 }
 
+.signup-btn {
+    display: inline-block;
+    background-color: $color-white;
+    font-size: 3.1rem;
+    height: 4rem;
+    width: 4rem;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+    color: $color-black;
+    border: 1px solid $color-gray;
+}
+
 // HELPER CLASSES
 .color-blue {
     color: $color-blue;

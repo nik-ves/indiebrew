@@ -40,6 +40,19 @@ html {
     background-color: transparent;
     color: #000; }
 
+.signup-btn {
+  display: inline-block;
+  background-color: #fff;
+  font-size: 3.1rem;
+  height: 4rem;
+  width: 4rem;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+  color: #000;
+  border: 1px solid #727272; }
+
 .color-blue {
   color: #5153f2;
   font-weight: 500; }
@@ -157,3 +170,65 @@ html {
       transition: 0.2s; }
       .footer__list--link:hover {
         border-bottom: 1px solid #727272; }
+
+.signup {
+  background: linear-gradient(135deg, #fff 0%, #f6e6f8 66%, #fff 99%);
+  padding-top: 5rem;
+  min-height: 100vh; }
+  .signup__box {
+    display: flex; }
+  .signup__content {
+    padding: 0 3rem; }
+  .signup__navigation {
+    display: flex;
+    justify-content: space-between; }
+    .signup__navigation--links {
+      display: flex;
+      align-items: center; }
+    .signup__navigation--text {
+      font-size: 2rem;
+      padding-left: 1.5rem;
+      font-weight: 700; }
+  .signup__row {
+    margin-top: 10rem;
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: space-between; }
+  .signup__info {
+    max-width: 49rem;
+    align-self: center; }
+  .signup__icon {
+    height: 3rem;
+    margin-right: 1rem; }
+  .signup__text-box {
+    display: flex;
+    font-size: 2rem;
+    margin: 2rem 0; }
+  .signup__weight {
+    font-weight: 700; }
+  .signup__form {
+    padding: 5rem;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    max-width: 50rem;
+    margin-left: 3rem; }
+    .signup__form--row {
+      display: flex;
+      flex-direction: column;
+      margin-top: 2rem; }
+    .signup__form--label {
+      margin-bottom: 1rem;
+      font-weight: 700; }
+    .signup__form--input {
+      padding: 1.5rem;
+      border-radius: 5px;
+      border: 1px solid #727272;
+      outline: none; }
+    .signup__form--flex {
+      display: flex;
+      font-size: 1.7rem;
+      margin-bottom: 3rem; }
+      .signup__form--flex input {
+        margin-right: 1rem;
+        margin-top: 0.5rem; }

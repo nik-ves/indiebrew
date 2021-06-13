@@ -161,3 +161,99 @@
         }   
     }
 }
+
+// SIGN UP STYLES
+.signup {
+    background: linear-gradient(135deg, $color-white 0%, $color-signup-pink 66%, $color-white 99%);
+    padding-top: 5rem;
+    min-height: 100vh;
+
+    &__box {
+        display: flex;
+    }
+
+    &__content {
+        padding: 0 3rem;
+    }
+
+    &__navigation {
+        display: flex;
+        justify-content: space-between;
+
+        &--links {
+            display: flex;
+            align-items: center;
+        }
+
+        &--text {
+            font-size: 2rem;
+            padding-left: 1.5rem;
+            font-weight: 700;
+        }
+    }
+
+    &__row {
+        margin-top: 10rem;
+        padding-bottom: 10rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info {
+        max-width: 49rem;
+        align-self: center;
+    }
+
+    &__icon {
+        height: 3rem;
+        margin-right: 1rem;
+    }
+
+    &__text-box {
+        display: flex;
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+
+    &__weight {
+        font-weight: 700;
+    }
+
+    &__form {
+        padding: 5rem;
+        background-color: $color-white;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        max-width: 50rem;
+        margin-left: 3rem;
+
+        &--row {
+            display: flex;
+            flex-direction: column;
+            margin-top: 2rem;
+        }
+        
+        &--label {
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        &--input {
+            padding: 1.5rem;
+            border-radius: 5px;
+            border: 1px solid $color-gray;
+            outline: none;
+        }
+
+        &--flex {
+            display: flex;
+            font-size: 1.7rem;
+            margin-bottom: 3rem;
+
+            & input {
+                margin-right: 1rem;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+}
